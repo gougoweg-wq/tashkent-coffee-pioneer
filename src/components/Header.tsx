@@ -6,7 +6,7 @@ const Header = () => {
       <div className="container flex h-16 items-center justify-between">
         <div className="flex items-center space-x-2">
           <div className="text-2xl font-bold text-primary">Place No.1</div>
-          <div className="text-sm text-muted-foreground">Coffee Bar</div>
+          <div className="text-sm text-muted-foreground">Coffee • Beer • Wine</div>
         </div>
         
         <nav className="hidden md:flex items-center space-x-6">

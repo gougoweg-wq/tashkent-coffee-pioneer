@@ -6,15 +6,12 @@ const Footer = () => {
           <div className="md:col-span-2">
             <h3 className="text-2xl font-bold text-gold mb-4">Place No.1</h3>
             <p className="text-cream/80 mb-4 max-w-md">
-              Tashkent's premier coffee destination, where tradition meets innovation. 
-              Experience the finest coffee culture in the heart of Uzbekistan.
+              Ведущее место в Ташкенте для ценителей кофе, крафтового пива и местного вина. 
+              Откройте для себя настоящую культуру гостеприимства в сердце Узбекистана.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gold hover:text-gold-light transition-colors">
+              <a href="https://instagram.com/espressoyourself.uz" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-light transition-colors">
                 Instagram
-              </a>
-              <a href="#" className="text-gold hover:text-gold-light transition-colors">
-                Facebook
               </a>
               <a href="#" className="text-gold hover:text-gold-light transition-colors">
                 Telegram
@@ -35,10 +32,10 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold text-gold mb-4">Contact</h4>
             <ul className="space-y-2 text-cream/80 text-sm">
-              <li>Amir Temur Avenue</li>
-              <li>Tashkent, Uzbekistan</li>
+              <li>Амир Темура, 96</li>
+              <li>Ташкент, Узбекистан</li>
               <li>+998 71 123 4567</li>
-              <li>hello@placeno1.uz</li>
+              <li>@espressoyourself.uz</li>
             </ul>
           </div>
         </div>

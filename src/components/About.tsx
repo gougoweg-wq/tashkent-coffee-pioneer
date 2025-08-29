@@ -4,8 +4,8 @@ import coffeeArt from "@/assets/coffee-art.jpg";
 const About = () => {
   const features = [
     {
-      title: "Premium Coffee Beans",
-      description: "Sourced from the finest coffee regions around the world",
+      title: "Специальный кофе",
+      description: "Профессионально приготовленный кофе из отборных зерен",
       icon: "☕"
     },
     {
@@ -14,14 +14,14 @@ const About = () => {
       icon: "👨‍🍳"
     },
     {
-      title: "Cozy Atmosphere",
-      description: "A warm space where culture and comfort meet",
-      icon: "🏠"
+      title: "Крафтовое пиво",
+      description: "Отборные сорта крафтового пива для ценителей",
+      icon: "🍺"
     },
     {
-      title: "Local Heritage",
-      description: "Celebrating Tashkent's rich coffee culture and traditions",
-      icon: "🌟"
+      title: "Местное вино",
+      description: "Лучшие узбекские вина от местных производителей",
+      icon: "🍷"
     }
   ];
 
@@ -30,10 +30,10 @@ const About = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
-            About Place No.1
+            О Place No.1
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            More than just a coffee bar - we're Tashkent's premier destination for coffee lovers seeking exceptional quality and authentic experiences.
+            Больше чем просто кофейня - мы ведущее место в Ташкенте для любителей кофе, крафтового пива и местного вина.
           </p>
         </div>
 
@@ -48,13 +48,13 @@ const About = () => {
           
           <div className="space-y-6">
             <h3 className="text-3xl font-bold text-primary">
-              Crafting Perfect Moments
+              Express Yourself
             </h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              At Place No.1, we believe that every cup tells a story. Located in the vibrant heart of Tashkent, we've created a space where the ancient tradition of coffee meets modern artistry.
+              В Place No.1 мы создали уникальное пространство, где встречаются традиции и современность. Расположенные на Амир Темура, 96, мы предлагаем не только отличный кофе, но и крафтовое пиво с местным вином.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Our passionate team of baristas transforms carefully selected beans into extraordinary experiences, one cup at a time. We're not just serving coffee - we're sharing a piece of our culture.
+              Наша команда профессиональных бариста готовит для вас лучшие напитки. Мы не просто подаем кофе - мы делимся частицей нашей культуры и гостеприимства.
             </p>
           </div>
         </div>

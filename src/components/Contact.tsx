@@ -7,9 +7,9 @@ const Contact = () => {
       title: "Visit Us",
       icon: "📍",
       details: [
-        "Amir Temur Avenue",
-        "Tashkent, Uzbekistan",
-        "Near Alisher Navoi Opera Theater"
+        "Амир Темура, 96",
+        "Ташкент, Узбекистан",
+        "Возле Opera Theater"
       ]
     },
     {
@@ -25,9 +25,9 @@ const Contact = () => {
       title: "Contact Info",
       icon: "📞",
       details: [
-        "Phone: +998 71 123 4567",
-        "Email: hello@placeno1.uz",
-        "Instagram: @placeno1tashkent"
+        "Телефон: +998 71 123 4567",
+        "Instagram: @espressoyourself.uz",
+        "Яндекс Карты: Место доступно"
       ]
     }
   ];
