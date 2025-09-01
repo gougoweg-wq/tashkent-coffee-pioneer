@@ -6,26 +6,26 @@ const Header = () => {
       <div className="container flex h-16 items-center justify-between">
         <div className="flex items-center space-x-2">
           <div className="text-2xl font-bold text-primary">Place No.1</div>
-          <div className="text-sm text-muted-foreground">Coffee • Beer • Wine</div>
+          <div className="text-sm text-muted-foreground">Кофе • Пиво • Вино</div>
         </div>
         
         <nav className="hidden md:flex items-center space-x-6">
           <a href="#home" className="text-sm font-medium hover:text-accent transition-colors">
-            Home
+            Главная
           </a>
           <a href="#menu" className="text-sm font-medium hover:text-accent transition-colors">
-            Menu
+            Меню
           </a>
           <a href="#about" className="text-sm font-medium hover:text-accent transition-colors">
-            About
+            О нас
           </a>
           <a href="#contact" className="text-sm font-medium hover:text-accent transition-colors">
-            Contact
+            Контакты
           </a>
         </nav>
 
         <Button variant="coffee" size="sm">
-          Order Now
+          Заказать
         </Button>
       </div>
     </header>

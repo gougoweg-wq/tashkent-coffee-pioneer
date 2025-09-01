@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 const Contact = () => {
   const contactInfo = [
     {
-      title: "Visit Us",
+      title: "Адрес",
       icon: "📍",
       details: [
         "Амир Темура, 96",
@@ -13,16 +13,16 @@ const Contact = () => {
       ]
     },
     {
-      title: "Opening Hours",
+      title: "Часы работы",
       icon: "🕐",
       details: [
-        "Monday - Friday: 7:00 AM - 10:00 PM",
-        "Saturday - Sunday: 8:00 AM - 11:00 PM",
-        "Holidays: 9:00 AM - 9:00 PM"
+        "Понедельник - Пятница: 7:00 - 22:00",
+        "Суббота - Воскресенье: 8:00 - 23:00",
+        "Праздники: 9:00 - 21:00"
       ]
     },
     {
-      title: "Contact Info",
+      title: "Контакты",
       icon: "📞",
       details: [
         "Телефон: +998 71 123 4567",
@@ -37,10 +37,10 @@ const Contact = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-primary-foreground mb-4">
-            Visit Place No.1
+            Посетите Place No.1
           </h2>
           <p className="text-xl text-primary-foreground/90 max-w-2xl mx-auto">
-            Come experience the warmth of our coffee culture. We're located in the heart of Tashkent, waiting to serve you the perfect cup.
+            Приходите и ощутите тепло нашей кофейной культуры. Мы находимся в самом сердце Ташкента и ждем, чтобы подать вам идеальную чашку.
           </p>
         </div>
 
@@ -65,17 +65,17 @@ const Contact = () => {
         <div className="text-center">
           <Card className="max-w-md mx-auto border-0 bg-card/90 backdrop-blur">
             <CardHeader>
-              <CardTitle className="text-2xl text-primary">Ready to Visit?</CardTitle>
+              <CardTitle className="text-2xl text-primary">Готовы к визиту?</CardTitle>
               <CardDescription className="text-muted-foreground">
-                Reserve your table or place an order for pickup
+                Забронируйте столик или сделайте заказ навынос
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-3">
               <Button variant="coffee" size="lg" className="w-full">
-                Reserve a Table
+                Забронировать столик
               </Button>
               <Button variant="outline" size="lg" className="w-full">
-                Order for Pickup
+                Заказать навынос
               </Button>
             </CardContent>
           </Card>

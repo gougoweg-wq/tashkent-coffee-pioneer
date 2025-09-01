@@ -9,8 +9,8 @@ const About = () => {
       icon: "☕"
     },
     {
-      title: "Expert Baristas",
-      description: "Skilled craftspeople who perfect every cup with passion",
+      title: "Опытные бариста",
+      description: "Искусные мастера, которые создают идеальную чашку с душой",
       icon: "👨‍🍳"
     },
     {

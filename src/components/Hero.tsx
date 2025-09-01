@@ -15,20 +15,20 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 text-center text-primary-foreground px-4 max-w-4xl mx-auto">
         <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-          Welcome to
+          Добро пожаловать в
           <span className="block text-gold">Place No.1</span>
         </h1>
         
         <p className="text-xl md:text-2xl mb-8 text-cream opacity-90 max-w-2xl mx-auto">
-          Experience the finest coffee culture in the heart of Tashkent. Where tradition meets innovation in every cup.
+          Лучшая кофейная культура в самом сердце Ташкента. Где традиции встречаются с инновациями в каждой чашке.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button variant="hero" size="lg" className="text-lg px-8 py-6">
-            Discover Our Menu
+            Открыть меню
           </Button>
           <Button variant="ghost-light" size="lg" className="text-lg px-8 py-6">
-            Learn Our Story
+            Наша история
           </Button>
         </div>
       </div>

@@ -20,17 +20,17 @@ const Footer = () => {
           </div>
           
           <div>
-            <h4 className="font-semibold text-gold mb-4">Quick Links</h4>
+            <h4 className="font-semibold text-gold mb-4">Быстрые ссылки</h4>
             <ul className="space-y-2 text-cream/80">
-              <li><a href="#home" className="hover:text-gold transition-colors">Home</a></li>
-              <li><a href="#menu" className="hover:text-gold transition-colors">Menu</a></li>
-              <li><a href="#about" className="hover:text-gold transition-colors">About</a></li>
-              <li><a href="#contact" className="hover:text-gold transition-colors">Contact</a></li>
+              <li><a href="#home" className="hover:text-gold transition-colors">Главная</a></li>
+              <li><a href="#menu" className="hover:text-gold transition-colors">Меню</a></li>
+              <li><a href="#about" className="hover:text-gold transition-colors">О нас</a></li>
+              <li><a href="#contact" className="hover:text-gold transition-colors">Контакты</a></li>
             </ul>
           </div>
           
           <div>
-            <h4 className="font-semibold text-gold mb-4">Contact</h4>
+            <h4 className="font-semibold text-gold mb-4">Контакты</h4>
             <ul className="space-y-2 text-cream/80 text-sm">
               <li>Амир Темура, 96</li>
               <li>Ташкент, Узбекистан</li>
@@ -42,7 +42,7 @@ const Footer = () => {
         
         <div className="border-t border-coffee-medium pt-8 text-center">
           <p className="text-cream/60">
-            © 2024 Place No.1 Coffee Bar. All rights reserved. Crafted with ❤️ in Tashkent.
+            © 2024 Place No.1 Coffee Bar. Все права защищены. Сделано с ❤️ в Ташкенте.
           </p>
         </div>
       </div>

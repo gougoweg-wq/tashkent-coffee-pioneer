@@ -4,66 +4,66 @@ import { Badge } from "@/components/ui/badge";
 const Menu = () => {
   const menuItems = [
     {
-      category: "Signature Coffee",
+      category: "Фирменный кофе",
       items: [
         {
-          name: "Tashkent Blend",
-          description: "Our signature house blend with hints of chocolate and caramel",
-          price: "25,000 UZS",
-          badge: "Popular"
+          name: "Ташкентский купаж",
+          description: "Наш фирменный купаж с нотами шоколада и карамели",
+          price: "25,000 сум",
+          badge: "Популярный"
         },
         {
-          name: "Golden Uzbek",
-          description: "Single-origin beans with notes of dried fruits and spices",
-          price: "30,000 UZS",
-          badge: "Premium"
+          name: "Золотой Узбекистан",
+          description: "Зерна одного происхождения с нотами сухофруктов и специй",
+          price: "30,000 сум",
+          badge: "Премиум"
         },
         {
-          name: "Silk Road Espresso",
-          description: "Rich, bold espresso inspired by ancient trade routes",
-          price: "20,000 UZS"
+          name: "Эспрессо Шелкового пути",
+          description: "Насыщенный эспрессо, вдохновленный древними торговыми путями",
+          price: "20,000 сум"
         }
       ]
     },
     {
-      category: "Specialty Drinks",
+      category: "Фирменные напитки",
       items: [
         {
-          name: "Place No.1 Latte",
-          description: "Smooth espresso with steamed milk and artistic foam design",
-          price: "28,000 UZS",
-          badge: "Signature"
+          name: "Латте Place No.1",
+          description: "Нежный эспрессо с пропаренным молоком и художественной пенкой",
+          price: "28,000 сум",
+          badge: "Фирменный"
         },
         {
-          name: "Cardamom Cappuccino",
-          description: "Traditional cappuccino enhanced with aromatic cardamom",
-          price: "26,000 UZS"
+          name: "Капучино с кардамоном",
+          description: "Традиционный капучино с ароматным кардамоном",
+          price: "26,000 сум"
         },
         {
-          name: "Honey Macchiato",
-          description: "Sweet and creamy with local honey and vanilla notes",
-          price: "32,000 UZS"
+          name: "Медовый маккиато",
+          description: "Сладкий и кремовый с местным медом и ванильными нотами",
+          price: "32,000 сум"
         }
       ]
     },
     {
-      category: "Cold Beverages",
+      category: "Холодные напитки",
       items: [
         {
-          name: "Iced Uzbek Coffee",
-          description: "Refreshing cold brew with a touch of rose water",
-          price: "24,000 UZS"
+          name: "Ледяной узбекский кофе",
+          description: "Освежающий колд брю с нотой розовой воды",
+          price: "24,000 сум"
         },
         {
-          name: "Affogato Supreme",
-          description: "Vanilla ice cream drowned in hot espresso",
-          price: "35,000 UZS",
-          badge: "Dessert"
+          name: "Аффогато Супрем",
+          description: "Ванильное мороженое, залитое горячим эспрессо",
+          price: "35,000 сум",
+          badge: "Десерт"
         },
         {
-          name: "Mint Cold Brew",
-          description: "Smooth cold brew infused with fresh mint leaves",
-          price: "27,000 UZS"
+          name: "Мятный колд брю",
+          description: "Нежный колд брю с листьями свежей мяты",
+          price: "27,000 сум"
         }
       ]
     }
@@ -74,10 +74,10 @@ const Menu = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
-            Our Coffee Menu
+            Наше кофейное меню
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Discover our carefully curated selection of premium coffees and specialty drinks, each crafted with passion and precision.
+            Откройте для себя наш тщательно подобранный ассортимент премиального кофе и фирменных напитков, каждый из которых создан с любовью и точностью.
           </p>
         </div>
 
